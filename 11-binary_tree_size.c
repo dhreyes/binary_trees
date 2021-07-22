@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_height - returns the height of a given tree
+ * binary_tree_size - returns the size(number of elements) of a given tree
  * @tree: given tree
- * Return: height of the tree
+ * Return: size of the tree or 0 if NULL
  */
 
 size_t binary_tree_size(const binary_tree_t *tree)
@@ -10,5 +10,5 @@ size_t binary_tree_size(const binary_tree_t *tree)
 	if (!tree)
 		return (0);
 	else
-		return(binary_tree_size(tree->left) + 1 + binary_tree_size(tree->right));
+		return (binary_tree_size(tree->left) + 1 + binary_tree_size(tree->right));
 }
