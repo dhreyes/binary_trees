@@ -2,7 +2,7 @@
 /**
  * binary_tree_sibling - returns sibling of given node
  * @node:node to check
- * Return: sibling of given node or null 
+ * Return: sibling of given node or null
  */
 
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)

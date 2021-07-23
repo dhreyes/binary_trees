@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_sibling - returns sibling of given node
+ * binary_tree_uncle - returns sibling of given node
  * @node:node to check
- * Return: sibling of given node or null 
+ * Return: sibling of given node or null
  */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
