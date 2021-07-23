@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 /**
- * binary_tree_postorder - move in tree with in-order traversal
+ * binary_tree_inorder - move in tree with in-order traversal
  * @tree: pointer to root node of tree
  * @func: pointer to function to call value in node
  */
-void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
 	if (tree == NULL || func == NULL)
 		return;
